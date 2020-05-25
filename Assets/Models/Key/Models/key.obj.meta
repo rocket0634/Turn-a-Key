@@ -5,12 +5,22 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: pPlane3
+    100004: default
     400000: //RootNode
     400002: pPlane3
+    400004: default
     2300000: pPlane3
+    2300002: default
     3300000: pPlane3
+    3300002: default
     4300000: pPlane3
+    4300002: default
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: 4010fb1c49e47d94b944db1d497daa9e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
