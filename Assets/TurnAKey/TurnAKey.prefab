@@ -123,7 +123,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4487485745213038}
-  - component: {fileID: 114844016563270118}
+  - component: {fileID: 114735504390854264}
   - component: {fileID: 114071858437639612}
   - component: {fileID: 114315571769541828}
   - component: {fileID: 114853677926155670}
@@ -168,7 +168,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538151566311552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0114, y: 0.1483, z: -0.0145}
+  m_LocalPosition: {x: -0.011, y: 0.1885, z: -0.0145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4366219424744856}
@@ -280,7 +280,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 9d85d492e2b567240a8adf6ee2b4c0f8, type: 3}
+  - {fileID: 2100000, guid: 48ce984517d220147911007a69d5e56f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Info: {fileID: 114315571769541828}
-  Module: {fileID: 114844016563270118}
+  Module: {fileID: 114735504390854264}
   Audio: {fileID: 114853677926155670}
 --- !u!114 &114652148128788148
 MonoBehaviour:
@@ -494,6 +494,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - Standard
+--- !u!114 &114735504390854264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1918826436084940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1718998123, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CountdownTime: 40
+  ModuleType: TurnAKey
+  ModuleDisplayName: Turn A Key
+  RequiresTimerVisibility: 0
+  WarnAtFiveSeconds: 0
 --- !u!114 &114813876005374786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -507,20 +523,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighlightScale: {x: 1, y: 1, z: 1}
   OutlineAmount: 0
---- !u!114 &114844016563270118
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1918826436084940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModuleType: TurnAKey
-  ModuleDisplayName: Turn A Key
-  RequiresTimerVisibility: 0
 --- !u!114 &114853677926155670
 MonoBehaviour:
   m_ObjectHideFlags: 1
